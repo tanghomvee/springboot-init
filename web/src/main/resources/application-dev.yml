@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.60.200:3306/timecash?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false
+    username: root
+    password: mysql@apcos
+
+
+logging:
+  level:
+    root: DEBUG
+  file:
+    path: D:/opt/

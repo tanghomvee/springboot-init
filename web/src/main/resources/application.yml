@@ -4,4 +4,22 @@ spring:
   application:
     name: springbootinit-webapp
   profiles:
-    include: dao
+    #include: dao
+    active: ${spring.profiles.active}
+
+  jpa:
+    database: MySQL
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+
+logging:
+  config: classpath:logback-spring.xml
+  level:
+    root: INFO
+  file:
+    path: D:/opt/
+
+

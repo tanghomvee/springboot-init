@@ -20,7 +20,6 @@ public class UserServiceImpl implements UserService {
     public Long save(Object user){
         User save;
         save = userDao.save((User) user);
-        int k = 1 /0;
         return save.getId();
     }
 }
