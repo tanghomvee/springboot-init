@@ -12,7 +12,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @ComponentScan("com.homvee")
-@EnableJpaRepositories(basePackages = {"com.homvee.springbootinit.dao"})
+@EnableJpaRepositories(basePackages = {"com.homvee.springbootinit.dao"},repositoryImplementationPostfix="ExtImpl")
 @EntityScan(basePackages = {"com.homvee.springbootinit.dao.domains"})
 public class WebApplication extends SpringBootServletInitializer {
 

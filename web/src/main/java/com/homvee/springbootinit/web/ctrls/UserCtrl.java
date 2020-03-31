@@ -19,6 +19,7 @@ public class UserCtrl {
     @ResponseBody
     public User add(User user){
         userService.save(user);
+        userService.list();
         return user;
     }
 }
