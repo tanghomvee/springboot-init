@@ -20,7 +20,7 @@
         <spring-cloud.version>Hoxton.SR3</spring-cloud.version>
         <spring-boot.version>2.2.5.RELEASE</spring-boot.version>
         <lombok.version>1.18.12</lombok.version>
-        <mysql.version>6.0.6</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
     </properties>
     <dependencyManagement>
         <dependencies>
